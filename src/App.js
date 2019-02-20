@@ -1,13 +1,22 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
+import "antd/dist/antd.css";
+import {
+  Header,
+  HeaderDropdown,
+  Router
+ } from '@groceristar/antd-showcase-components'
 
-import { Header, Dropdown } from '@groceristar/antd-showcase-components'
+
+//  import ExampleCardsView from './views/ExampleCardsView';
+// <Route path="/example/cards" component={ExampleCardsView}>
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-
-      </div>
+      <Fragment>
+        // <Header />
+        <Router />
+      </Fragment>
     );
   }
 }
