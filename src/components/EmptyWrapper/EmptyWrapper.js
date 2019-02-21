@@ -1,3 +1,4 @@
+import React, { Component, PureComponent } from 'react';
 import { Empty } from 'antd';
 
 ReactDOM.render(

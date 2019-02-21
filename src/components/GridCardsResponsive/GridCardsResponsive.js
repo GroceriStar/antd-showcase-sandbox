@@ -1,3 +1,5 @@
+import React, { Component, PureComponent } from 'react';
+
 import { List, Card } from 'antd';
 
 const data = [

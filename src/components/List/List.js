@@ -1,3 +1,5 @@
+import React, { Component, PureComponent } from 'react';
+
 import { List, Avatar, Icon } from 'antd';
 
 const listData = [];
