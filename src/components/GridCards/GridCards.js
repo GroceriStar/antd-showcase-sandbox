@@ -18,27 +18,19 @@ const data = [
   },
 ];
 
-ReactDOM.render(
-  <List
-    grid={{ gutter: 16, column: 4 }}
-    dataSource={data}
-    renderItem={item => (
-      <List.Item>
-        <Card title={item.title}>Card content</Card>
-      </List.Item>
-    )}
-  />,
-  mountNode
-);
-
-<Fragment>
-  <List
-    grid={{ gutter: 16, column: 4 }}
-    dataSource={data}
-    renderItem={item => (
-      <List.Item>
-        <Card title={item.title}>Card content</Card>
-      </List.Item>
-    )}
-  />
-</Fragment>
+const GridList = () => {
+  return (
+    <Fragment>
+      <List
+        grid={{ gutter: 16, column: 4 }}
+        dataSource={data}
+        renderItem={item => (
+          <List.Item>
+            <Card title={item.title}>Card content</Card>
+          </List.Item>
+        )}
+      />
+    </Fragment>
+  )
+}
+export default GridRespon
