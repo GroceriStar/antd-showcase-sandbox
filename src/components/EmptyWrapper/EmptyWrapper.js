@@ -7,16 +7,19 @@ const Em = () => {
   )
 }
 export default Em
+
 // ---
 
 import React, { Component, PureComponent } from 'react';
 import { Empty, Button } from 'antd';
 
+const imagePath = "https://gw.alipayobjects.com/mdn/miniapp_social/afts/img/A*pevERLJC9v0AAAAAAAAAAABjAQAAAQ/original";
+
 const EmExtended = () => {
   return (
     <Fragment>
       <Empty
-        image="https://gw.alipayobjects.com/mdn/miniapp_social/afts/img/A*pevERLJC9v0AAAAAAAAAAABjAQAAAQ/original"
+        image={imagePath}
         description={
           <span>
             Customize <a href="#API">Description</a>

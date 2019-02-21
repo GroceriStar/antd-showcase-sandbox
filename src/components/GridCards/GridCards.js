@@ -18,15 +18,21 @@ const data = [
   },
 ];
 
+const styles = {
+  grid: { gutter: 16, column: 4 }
+}
+
 const GridList = () => {
   return (
     <Fragment>
       <List
-        grid={{ gutter: 16, column: 4 }}
+        grid={styles.grid}
         dataSource={data}
         renderItem={item => (
           <List.Item>
-            <Card title={item.title}>Card content</Card>
+            <Card title={item.title}>
+              Card content
+            </Card>
           </List.Item>
         )}
       />
