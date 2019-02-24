@@ -1,12 +1,13 @@
 import React, { Component, Fragment } from 'react';
 import "antd/dist/antd.css";
+
 import {
   Header,
   HeaderDropdown,
-  Router
+  // Router
  } from '@groceristar/antd-showcase-components'
 
-
+import Router from './Router'
 //  import ExampleCardsView from './views/ExampleCardsView';
 // <Route path="/example/cards" component={ExampleCardsView}>
 

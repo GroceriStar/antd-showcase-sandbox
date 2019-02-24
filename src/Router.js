@@ -18,13 +18,15 @@ class Router extends Component {
         <Switch>
 
           <Route path="/"  component={HomeView} exact />
-          {/*<Route path="/s2"  component={SearchView} exact/>
-          <Route path="/cards"  exact component={RecipeListCards} />*/}
-          <Route path="/recipelist"  component={ExampleRecipeListView} exact />
+          {/*
+            <Route path="/s2"  component={SearchView} exact/>
+            <Route path="/cards"  exact component={RecipeListCards} />
+          */}
+          <Route path="/list"  component={ExampleRecipeListView} exact />
         </Switch>
       </BrowserRouter>
     )
   }
 }
 
-export Router
+export default Router
