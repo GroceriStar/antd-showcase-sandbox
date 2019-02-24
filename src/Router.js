@@ -5,9 +5,10 @@ import {
 
 import HomeView   from './views/HomeView'
 // import HomeView   from '@groceristar/antd-showcase-components'
+
 import SearchView from '@groceristar/antd-showcase-components'
 
-import ExampleRecipeListView from './ExampleRecipeListView';
+import ExampleRecipeListView from './views/ExampleRecipeListView';
 
 class Router extends Component {
 

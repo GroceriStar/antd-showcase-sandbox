@@ -3,11 +3,11 @@ import _ from "lodash";
 
 import "antd/dist/antd.css";
 
-// import { Header }   from '@groceristar/antd-showcase-components';
-import Main   from '@groceristar/antd-showcase-components';
 
-// import { Header, Main } from ''
-import { getFirstFiveRecipes } from "../selectors/selector";
+import { Header, ListWrapper }   from '@groceristar/antd-showcase-components';
+import { Cards }   from '@groceristar/cards-wrapper';
+
+import { getFirstFiveRecipes } from "./selector";
 
 
 class HomeView extends Component {
