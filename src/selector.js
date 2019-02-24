@@ -1,6 +1,6 @@
 import {
-  // groceristar,
-  // chickenKyiv,
+  groceristar,
+  chickenKyiv,
   showcase,
   // gsLoopback
 } from "@groceristar/groceristar-fetch";
@@ -46,19 +46,12 @@ function getFirstFiveRecipes(){
   return chickenKyiv.getFirstFiveRecipes();
 }
 
-function getFiveRandomIngredients(){
-  return chickenKyiv.getFiveRandomIngredients();
-}
 
-//@TODO i don't like this name too
-function getRecipeChickenKyivById(id) {
-  return chickenKyiv.getRecipe()[id];
-}
+
+
 
 export {
   getGroceriesKey,
-  getRecipeChickenKyivById,
-  getFiveRandomIngredients,
 
   getRandomRecipe,
   getFirstFiveRecipes,

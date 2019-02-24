@@ -1,12 +1,9 @@
 import React, { Component } from 'react'
-
+import _        from "lodash";
 import { List } from 'antd';
 
 // import { DefaultList } from '@groceristar/grocery-component'
 import { ListWrapperShort } from '@groceristar/antd-showcase-components'
-
-
-import _        from "lodash";
 
 import {
   getRandomRecipe,
@@ -14,7 +11,7 @@ import {
   getFiveRandomIngredients,
   getRecipeChickenKyivById,
   getShowcaseFiveRecipes
-} from 'selector'
+} from '../selector'
 
 
 const data = [

@@ -29,8 +29,8 @@ import RecipeListExample from './components/RecipeList/RecipeList'
 
 import "antd/dist/antd.css";
 // import "./../styles.css";
-import { getFirstFiveRecipes } from "../selectors/selector";
 
+import { getFirstFiveRecipes } from "../selector";
 
 class ExampleCardsView extends Component {
 
