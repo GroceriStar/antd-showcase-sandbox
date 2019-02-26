@@ -6,9 +6,11 @@ import {
 import HomeView   from './views/HomeView'
 // import HomeView   from '@groceristar/antd-showcase-components'
 
-import SearchView from '@groceristar/antd-showcase-components'
+
 
 import ExampleRecipeListView from './views/ExampleRecipeListView';
+
+import SearchView from '@groceristar/antd-showcase-components'
 
 class Router extends Component {
 
@@ -18,12 +20,12 @@ class Router extends Component {
       <BrowserRouter>
         <Switch>
 
-          <Route path="/"  component={HomeView} exact />
+          <Route path="/"  component={HomeView} exact /> 
           {/*
             <Route path="/s2"  component={SearchView} exact/>
             <Route path="/cards"  exact component={RecipeListCards} />
           */}
-          <Route path="/list"  component={ExampleRecipeListView} exact />
+          {<Route path="/list"  component={ExampleRecipeListView} exact /> }
         </Switch>
       </BrowserRouter>
     )

@@ -5,6 +5,7 @@ import "antd/dist/antd.css";
 
 
 import { Header, ListWrapper }   from '@groceristar/antd-showcase-components';
+
 import { Cards }   from '@groceristar/cards-wrapper';
 
 import { getFirstFiveRecipes } from "../selector";
@@ -34,7 +35,7 @@ class HomeView extends Component {
             */}
 
           <ListWrapper list={list} />
-          <Cards />
+          {/* <Cards /> */}
         </div>
       </Fragment>
 
