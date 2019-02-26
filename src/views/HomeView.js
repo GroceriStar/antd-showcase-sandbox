@@ -29,13 +29,9 @@ class HomeView extends Component {
         <div className="main">
 
             <HeaderShowcase />
-            123
-            {/*
-            <Main data={getFirstFiveRecipes()} />
-            */}
 
-          <ListWrapper list={list} />
-          {/* <Cards /> */}
+            <ListWrapper list={list} />
+           <Cards />
         </div>
       </Fragment>
 
