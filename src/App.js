@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react';
 import "antd/dist/antd.css";
 
 import {
-  Header,
+  HeaderShowcase,
   HeaderDropdown,
   // Router
  } from '@groceristar/antd-showcase-components'
@@ -16,7 +16,7 @@ class App extends Component {
   render() {
     return (
       <Fragment>
-        {/*<Header />*/}
+        {/*<HeaderShowcase />*/}
           <Router />
       </Fragment>
     );
