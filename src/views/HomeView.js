@@ -4,7 +4,10 @@ import _ from "lodash";
 import "antd/dist/antd.css";
 
 
-import { HeaderShowcase, ListWrapper }   from '@groceristar/antd-showcase-components';
+import {
+  HeaderShowcase,
+  ListWrapper 
+} from '@groceristar/antd-showcase-components';
 
 import { Cards }   from '@groceristar/cards-wrapper';
 
