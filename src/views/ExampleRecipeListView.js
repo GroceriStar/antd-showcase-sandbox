@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import _        from "lodash";
-import { List } from 'antd';
+import { List, Divider } from 'antd';
 
 // import { DefaultList } from '@groceristar/grocery-component'
 import { ListWrapperShort } from '@groceristar/antd-showcase-components'
@@ -30,7 +30,9 @@ const ExampleRecipeListView = () => {
   return (
     <div>
 
-      <h3 style={{ marginBottom: 16 }}>Default Size</h3>
+      <h3 style={{ marginBottom: 16 }}>
+        Default Size
+      </h3>
       <ListWrapperShort data={data} />
 
       <List
@@ -41,9 +43,11 @@ const ExampleRecipeListView = () => {
         renderItem={item => (<List.Item>{item}</List.Item>)}
       />
 
+<Divider />
 
-
-      <h3 style={{ margin: '16px 0' }}>Small Size</h3>
+      <h3 style={{ margin: '16px 0' }}>
+        Small Size
+      </h3>
       <ListWrapperShort data={data} size="small" />
       <List
         size="small"
@@ -53,8 +57,10 @@ const ExampleRecipeListView = () => {
         dataSource={data}
         renderItem={item => (<List.Item>{item}</List.Item>)}
       />
-
-      <h3 style={{ margin: '16px 0' }}>Large Size</h3>
+<Divider />
+      <h3 style={{ margin: '16px 0' }}>
+        Large Size
+      </h3>
       <ListWrapperShort data={data} size="large" />
 
       <List
@@ -65,7 +71,7 @@ const ExampleRecipeListView = () => {
         dataSource={data}
         renderItem={item => (<List.Item>{item}</List.Item>)}
       />
-
+      <Divider />
 
     </div>
   );

@@ -4,7 +4,9 @@ import {
   Header
 } from '@groceristar/antd-showcase-components'
 
-import { getFirstFiveRecipes } from "../selector";
+import {
+  getFirstFiveRecipes
+} from "../selector";
 import "antd/dist/antd.css";
 
 const ExampleListView = () => {
@@ -15,9 +17,7 @@ const ExampleListView = () => {
   return (
     <Fragment>
 
-
         <ListWrapper list={list} />
-
 
 
       </Fragment>

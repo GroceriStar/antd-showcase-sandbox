@@ -6,12 +6,14 @@ import "antd/dist/antd.css";
 
 import {
   HeaderShowcase,
-  ListWrapper 
+  ListWrapper
 } from '@groceristar/antd-showcase-components';
 
 import { Cards }   from '@groceristar/cards-wrapper';
 
-import { getFirstFiveRecipes } from "../selector";
+import {
+  getFirstFiveRecipes
+} from "../selector";
 
 
 class HomeView extends Component {

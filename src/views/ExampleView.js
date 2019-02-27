@@ -1,36 +1,38 @@
 import React, { Component, Fragment } from 'react';
-import _      from "lodash";
-
-
-
-// import Header from '../components/Header/Header';
-
-import { Header }   from '@groceristar/antd-showcase-components';
-// import Main   from '@groceristar/antd-showcase-components';
-
-
+import _ from "lodash";
 
 import {
-  TheCard1, TheCard2,
-  TheCard3, TheCard4
-} from './components/RecipeList/Cards'
+  HeaderShowcase,
+  LoadMoreList
+} from '@groceristar/antd-showcase-components';
 
-import LoadMoreList      from './components/RecipeList/More'
-import RecipeListExample from './components/RecipeList/RecipeList'
+import {
+  Card1,
+  Card2,
+  Card3,
+  Card4,
+  Card5,
 
-// import {
-//   TheCard1, TheCard2,
-//   TheCard3, TheCard4
-// } from './components/RecipeList/Cards'
-//
-// import LoadMoreList      from './components/RecipeList/More'
+  ClearCardsExample,
+  DefaultCardsExample
+} from '@groceristar/cards-wrapper'
+
+
+
+// import RecipeListExample from './components/RecipeList/RecipeList'
+
+
+
+
 // import RecipeListExample from './components/RecipeList/RecipeList'
 
 
 import "antd/dist/antd.css";
 // import "./../styles.css";
 
-import { getFirstFiveRecipes } from "../selector";
+import {
+  getFirstFiveRecipes
+} from "../selector";
 
 class ExampleCardsView extends Component {
 
@@ -52,20 +54,10 @@ class ExampleCardsView extends Component {
             <ListWrapper list={getFirstFiveRecipes()} />
 
 
+            <ClearCardsExample />
+            <DefaultCardsExample />
 
-
-            <br />
-            <TheCard1 />
-            <hr />
-            <br />
-            <TheCard2 />
-            <hr />
-            <br />
-            <TheCard3 />
-            <hr />
-            <br />
-            <TheCard4 />
-            <hr />
+          {/*
             <br />
             <LoadMoreList />
             <hr />
@@ -73,6 +65,7 @@ class ExampleCardsView extends Component {
             <RecipeListExample />
             <hr />
             <br />
+            */}
 
 
         </div>
