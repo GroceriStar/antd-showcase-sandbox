@@ -1,12 +1,14 @@
 import React, { Component, Fragment } from 'react';
 import {
-  ListWrapper,
   Header
 } from '@groceristar/antd-showcase-components'
+
+import { ListWrapper }   from '@groceristar/cards-wrapper';
 
 import {
   getFirstFiveRecipes
 } from "../selector";
+
 import "antd/dist/antd.css";
 
 const ExampleListView = () => {

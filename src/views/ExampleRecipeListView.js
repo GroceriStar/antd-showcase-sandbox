@@ -43,7 +43,7 @@ const ExampleRecipeListView = () => {
         renderItem={item => (<List.Item>{item}</List.Item>)}
       />
 
-<Divider />
+      <Divider />
 
       <h3 style={{ margin: '16px 0' }}>
         Small Size
@@ -57,7 +57,8 @@ const ExampleRecipeListView = () => {
         dataSource={data}
         renderItem={item => (<List.Item>{item}</List.Item>)}
       />
-<Divider />
+      <Divider />
+
       <h3 style={{ margin: '16px 0' }}>
         Large Size
       </h3>
