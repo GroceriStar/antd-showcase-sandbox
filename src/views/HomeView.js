@@ -4,7 +4,7 @@ import {
 
 } from '@groceristar/antd-showcase-components';
 
-import { Cards, ListWrapper }   from '@groceristar/cards-wrapper';
+import { Cards, ListWrapper, Em }   from '@groceristar/cards-wrapper';
 
 import _ from "lodash";
 
@@ -23,6 +23,14 @@ class HomeView extends Component {
 
     };
 
+    getListWrapper(list){
+      if(list != undefined && list.length > 0){
+        return (<ListWrapper list={list} />)
+      } else {
+        return (<Em />)
+      }
+    }
+
   render() {
 
     const list = getFirstFiveRecipes();
@@ -35,8 +43,8 @@ class HomeView extends Component {
 
             <HeaderShowcase />
 
-            <ListWrapper list={list} />
-           <Cards />
+            {this.getListWrapper(list)}
+           {/* <Cards /> */}
         </div>
       </Fragment>
 
