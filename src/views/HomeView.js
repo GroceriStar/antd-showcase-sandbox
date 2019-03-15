@@ -36,7 +36,7 @@ class HomeView extends Component {
             <HeaderShowcase />
 
             <ListWrapper list={list} />
-           <Cards />
+           {/* <Cards /> */}
         </div>
       </Fragment>
 

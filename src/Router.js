@@ -3,7 +3,7 @@ import {
   BrowserRouter, Switch, Route
 } from 'react-router-dom';
 
-import HomeView   from './views/HomeView'
+import HomeView  from './views/HomeView'
 // import HomeView   from '@groceristar/antd-showcase-components'
 
 import { ExampleListView, ExampleRecipeListView, ExampleView } from '@groceristar/cards-wrapper'
