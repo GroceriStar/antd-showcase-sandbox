@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import {
-  HeaderShowcase
+  HeaderShowcase,
+  ListWrapperEmpty
 
 } from '@groceristar/antd-showcase-components';
 
@@ -23,14 +24,6 @@ class HomeView extends Component {
 
     };
 
-    getListWrapper(list){
-      if(list != undefined && list.length > 0){
-        return (<ListWrapper list={list} />)
-      } else {
-        return (<Em />)
-      }
-    }
-
   render() {
 
     const list = getFirstFiveRecipes();
@@ -43,7 +36,7 @@ class HomeView extends Component {
 
             <HeaderShowcase />
 
-            {this.getListWrapper(list)}
+            <ListWrapperEmpty list={list} />
            {/* <Cards /> */}
         </div>
       </Fragment>
