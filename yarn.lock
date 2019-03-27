@@ -806,12 +806,12 @@
     react-image "^2.0.0"
     uuid "^3.3.2"
 
-"@groceristar/groceristar-fetch@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-2.0.1.tgz#3bef666b3c86678be9bda87c47e5749a4e51ce64"
-  integrity sha512-Ey87SbqvjXkln++lgxhdMrED/c1OYDjVJGatfxoFnJ969lepp2b9qpIeN6xstc1vurzgt2aPJjf7XV35H7m6OA==
+"@groceristar/groceristar-fetch@^2.0.6":
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-2.0.6.tgz#0a9d9edbbf530863a8ffa232e294acf110d8b9aa"
+  integrity sha512-yAVM2BUIM86LAz0b3bVpBAa+9mmsrfaOXO1flT0Mo/MmexcFlOxRaCY2c/ppdF/5aE3PXgOvT9HG5XgFBp60zQ==
   dependencies:
-    "@groceristar/sd-wrapper" "^2.0.0"
+    "@groceristar/sd-wrapper" "^2.0.6"
     dayjs "^1.8.0"
     fs "0.0.2"
     lodash "^4.17.10"
@@ -825,10 +825,10 @@
   dependencies:
     uuid "^3.3.2"
 
-"@groceristar/sd-wrapper@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@groceristar/sd-wrapper/-/sd-wrapper-2.0.0.tgz#47cee3329dcb84aed42ccbf61467c8c9f0229d27"
-  integrity sha512-l/6DEl0anaLRw7sdtBJDO8rwU5ejcyYujuBj5pk6q7NDKixlzZqrXu/7ogxqgTgzZiDxMItVnpnNqV3/M01sew==
+"@groceristar/sd-wrapper@^2.0.6":
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/@groceristar/sd-wrapper/-/sd-wrapper-2.0.6.tgz#5e27235a3083c4dd102c92873ba5dee9f1e3a776"
+  integrity sha512-CQmkZg/mcRM7Q9O8jofmOXsccEJDobWdHrvIdwn9iIZMAW95NyP05ERAGsJ/yGMx/9+l33Y4EsZRCHhUoLOlCQ==
   dependencies:
     path "^0.12.7"
     uuid "^3.3.2"
