@@ -6,7 +6,7 @@
     "@groceristar/antd-showcase-components": "^1.0.43",
     "@groceristar/cards-wrapper": "^1.0.20",
     "@groceristar/groceristar-fetch": "^2.1.8",
-    "@groceristar/grocery-component": "^1.0.9",
+    "@groceristar/grocery-component": "^1.0.10",
     "antd": "^3.16.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.4",
