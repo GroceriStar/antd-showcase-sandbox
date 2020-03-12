@@ -1194,7 +1194,7 @@
     shx "^0.3.2"
     uuid "^3.3.2"
 
-"@groceristar/cards-wrapper@^1.0.20", "@groceristar/cards-wrapper@^1.0.21":
+"@groceristar/cards-wrapper@^1.0.21":
   version "1.0.21"
   resolved "https://registry.yarnpkg.com/@groceristar/cards-wrapper/-/cards-wrapper-1.0.21.tgz#3015cbf405fce1b6c2f028c547bc84d277c683af"
   integrity sha512-oZ2MRKM4NrEJ1ISbo4CuSCz6CRyoJB0XrIcu0qDmjSBAcjyBudvzMFv6TqUhr4M44ZEA5VmtiFHSd8f44NxQEQ==
